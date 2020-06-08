@@ -12,5 +12,6 @@ debugbios_desk_test:
   tags:
     - test
   script:
+    - hostname
     - echo test
 
