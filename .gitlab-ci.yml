@@ -1,0 +1,16 @@
+#####################
+# stage
+#####################
+stages:
+  - test
+
+#####################
+# job
+#####################
+debugbios_desk_test:
+  stage: test
+  tags:
+    - test
+  script:
+    - echo test
+
